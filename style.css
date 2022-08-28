@@ -1,0 +1,32 @@
+@keyframes MiddleRight {
+  from {
+    background-color: red;
+    left: 0px;
+  }
+  to {
+    background-color: red;
+    left: 95%;
+  }
+  0% {
+    background-color: red;
+    left: 0px;
+    right: 50%;
+  }
+  50% {
+    background-color: royalblue;
+    left: 45%;
+    right: 95%;
+  }
+}
+
+div {
+  animation-name: MiddleRight;
+  animation-duration: 8s;
+  animation-delay: 2s;
+
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  position: relative;
+  width: 5%;
+  height: 10vh;
+}
